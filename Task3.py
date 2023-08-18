@@ -9,8 +9,6 @@ import matplotlib.pyplot as plt
 
 df = pd.read_csv("coffee_csv.csv")
 df=pd.DataFrame(df)
-# Assuming df is your DataFrame containing the data
-# If 'Reviews' is not already in numeric format, convert it to numeric
 
 df['Reviews'] = df['Reviews'].astype(int)
 
