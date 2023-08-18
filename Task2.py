@@ -10,8 +10,6 @@ import matplotlib.pyplot as plt
 
 df = pd.read_csv("coffee_csv.csv")
 df=pd.DataFrame(df)
-# Assuming df is your DataFrame containing the data
-# If 'place_type' is not already in string format, convert it to string
 df['Place type'] = df['Place type'].astype(str)
 
 # Step 2: Count occurrences of each category
